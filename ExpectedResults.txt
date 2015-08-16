@@ -1,0 +1,10 @@
+Results of this test.
+
+On my Mac Book Pro (2.5GHz quad-core Intel Core i7, 16GB ) I got this results
+
+Jackson Encoding LongSummaryStatistics{count=1000000, sum=1407842, min=1, average=1.407842, max=2855}
+Jackson Decoding LongSummaryStatistics{count=1000000, sum=2548251, min=2, average=2.548251, max=9705}
+FastJson Encoding LongSummaryStatistics{count=1000000, sum=1340114, min=1, average=1.340114, max=1016}
+FastJson Decoding LongSummaryStatistics{count=1000000, sum=2412884, min=2, average=2.412884, max=2001}
+
+-------------------------------------------

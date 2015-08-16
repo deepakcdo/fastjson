@@ -38,6 +38,7 @@ public class JsonPerformance {
 
     @Test
     public void runTest() {
+        System.out.println("All time in micro seconds");
         runTests("Jackson", this::readValue, this::writeValue);
         runTests("FastJson", fastJson::toMap, fastJson::toJson);
     }
